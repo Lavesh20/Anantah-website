@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   const parallaxOffset = useParallax({ speed: 0.1 });
   
   // Set the hackathon date to April 15, 2025
-  const hackathonDate = new Date('2025-04-15T09:00:00');
+  const hackathonDate = new Date('2025-07-15T09:00:00');
   
   const createParticle = (x: number, y: number, size: number) => {
     if (!containerRef.current) return;
