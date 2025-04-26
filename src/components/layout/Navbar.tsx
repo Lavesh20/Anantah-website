@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center text-xl font-bold tracking-tight">
-          <span className="text-glow">अनंत</span>
+          <span className="text-glow">अनन्त:</span>
           <span className="text-white/80">2025</span>
         </a>
 
