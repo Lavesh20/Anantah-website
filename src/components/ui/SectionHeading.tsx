@@ -35,7 +35,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
     <div className={cn('mb-12', alignmentClasses[alignment])}>
       <div className="inline-block">
         <span className="text-xs font-semibold tracking-wider uppercase bg-white/10 px-3 py-1 rounded-full mb-3 inline-block">
-          अनंत 2025
+         अनन्तः 2025
         </span>
       </div>
       <h2 
