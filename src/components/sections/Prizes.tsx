@@ -11,7 +11,7 @@ const Prizes: React.FC = () => {
     {
       title: "Grand Prize",
       amount: "Revealing soon",
-      description: "For the overall winner of Anantah 2025",
+      description: "For the overall winner of अनन्तः 2025",
       icon: <Trophy className="text-yellow-400" size={32} />,
       color: "from-yellow-500/20 to-yellow-600/5"
     },
@@ -84,7 +84,7 @@ const Prizes: React.FC = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         <SectionHeading 
           title="Prizes & Perks"
-          subtitle="Compete for a prize pool of ₹3,50,000+ and gain valuable experiences and opportunities."
+          subtitle="Compete for a prize pool of ₹1,00,000+ and gain valuable experiences and opportunities."
           glowColor="purple"
         />
         
