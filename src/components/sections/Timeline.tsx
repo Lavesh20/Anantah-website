@@ -117,7 +117,7 @@ const Timeline: React.FC = () => {
   
   const timelineEvents = [
     {
-      date: "June 15, 2025",
+      date: "May 20, 2025",
       time: "10:00 AM IST",
       title: "Registration Opens",
       description: "Team registration begins. Early bird registrations get special mentorship access.",
