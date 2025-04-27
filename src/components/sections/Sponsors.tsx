@@ -97,7 +97,7 @@ const Sponsors: React.FC = () => {
           
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-2/3 mb-8 md:mb-0">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Want to sponsor अनंत 2025?</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Want to sponsor अनन्तः 2025?</h3>
               <p className="text-white/70 max-w-xl">
                 Showcase your brand to innovative minds and tech enthusiasts. Partner with us to support the next generation of technology leaders.
               </p>
