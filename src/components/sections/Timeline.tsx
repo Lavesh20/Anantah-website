@@ -136,7 +136,7 @@ const Timeline: React.FC = () => {
     },
     {
       date: "August 04, 2025",
-      time: "5:00 PM IST",
+      time: "8:00 PM IST",
       title: "Hackathon Kickoff",
       description: "Opening ceremony, problem statements release, and team orientations.",
       icon: <Flag size={24} />,
@@ -153,7 +153,7 @@ const Timeline: React.FC = () => {
     },
     {
       date: "August 06, 2025",
-      time: "3:00 PM IST",
+      time: "8:00 AM IST",
       title: "Submission Deadline",
       description: "Final code, documentation, and presentation submissions due.",
       icon: <FileCheck size={24} />,
