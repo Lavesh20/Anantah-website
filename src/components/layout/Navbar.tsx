@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <CustomButton href="https://unstop.com" size="md" neonColor="purple">
+          <CustomButton href="https://devfolio.co/discover" size="md" neonColor="purple">
             Register Now
           </CustomButton>
         </div>
@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <div className="pt-3">
-              <CustomButton href="https://unstop.com" size="md" neonColor="purple" className="w-full">
+              <CustomButton href="https://devfolio.co/discover" size="md" neonColor="purple" className="w-full">
                 Register Now
               </CustomButton>
             </div>
