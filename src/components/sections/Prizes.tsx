@@ -10,21 +10,21 @@ const Prizes: React.FC = () => {
   const prizeCategories = [
     {
       title: "Grand Prize",
-      amount: "₹1,00,000",
+      amount: "Revealing soon",
       description: "For the overall winner of Anantah 2025",
       icon: <Trophy className="text-yellow-400" size={32} />,
       color: "from-yellow-500/20 to-yellow-600/5"
     },
     {
       title: "1st Runner Up",
-      amount: "₹75,000",
+      amount: "Revealing soon",
       description: "For the first runner-up team",
       icon: <Award className="text-gray-300" size={32} />,
       color: "from-gray-400/20 to-gray-500/5"
     },
     {
       title: "2nd Runner Up",
-      amount: "₹50,000",
+      amount: "Revealing soon",
       description: "For the second runner-up team",
       icon: <Award className="text-amber-600" size={32} />,
       color: "from-amber-700/20 to-amber-800/5"
@@ -49,32 +49,32 @@ const Prizes: React.FC = () => {
     }
   ];
 
-  const trackPrizes = [
-    {
-      track: "AI & ML",
-      prize: "₹25,000"
-    },
-    {
-      track: "Space Tech",
-      prize: "₹25,000"
-    },
-    {
-      track: "Web3 & Blockchain",
-      prize: "₹25,000"
-    },
-    {
-      track: "HealthTech",
-      prize: "₹25,000"
-    },
-    {
-      track: "Cybersecurity",
-      prize: "₹25,000"
-    },
-    {
-      track: "Web Development",
-      prize: "₹25,000"
-    }
-  ];
+  // const trackPrizes = [
+  //   {
+  //     track: "AI & ML",
+  //     prize: "₹25,000"
+  //   },
+  //   {
+  //     track: "Space Tech",
+  //     prize: "₹25,000"
+  //   },
+  //   {
+  //     track: "Web3 & Blockchain",
+  //     prize: "₹25,000"
+  //   },
+  //   {
+  //     track: "HealthTech",
+  //     prize: "₹25,000"
+  //   },
+  //   {
+  //     track: "Cybersecurity",
+  //     prize: "₹25,000"
+  //   },
+  //   {
+  //     track: "Web Development",
+  //     prize: "₹25,000"
+  //   }
+  // ];
 
   return (
     <section id="prizes" className="relative py-20 px-6 bg-dark overflow-hidden">
@@ -105,7 +105,7 @@ const Prizes: React.FC = () => {
           ))}
         </div>
         
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <h3 className="text-2xl font-bold mb-6 text-center">Track-specific Prizes</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {trackPrizes.map((item, index) => (
@@ -115,7 +115,7 @@ const Prizes: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         
         <div className="mt-16">
           <h3 className="text-2xl font-bold mb-6 text-center">Additional Perks</h3>
