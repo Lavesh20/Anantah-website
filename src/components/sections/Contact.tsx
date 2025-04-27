@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
   const socialLinks = [
     { icon: <Instagram size={20} />, url: "https://www.instagram.com/csi_aitr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
     { icon: <Linkedin size={20} />, url: "https://www.linkedin.com/company/computer-society-of-india-aitr/", label: "LinkedIn" },
-    { icon: <Github size={20} />, url: "https://github.com/anantahhackathon", label: "GitHub" },
+    { icon: <Github size={20} />, url: "https://github.com/CSI-AITR", label: "GitHub" },
   ];
 
   return (
