@@ -125,8 +125,6 @@ const Guidelines: React.FC = () => {
           <p>The hackathon is open to:</p>
           <ul className="list-disc pl-5 space-y-1">
             <li>College students from any university/institution</li>
-            <li>Recent graduates (within 1 year of graduation)</li>
-            <li>Professionals with less than 3 years of experience</li>
             <li>Participants must be at least 18 years of age</li>
           </ul>
         </div>
@@ -140,9 +138,9 @@ const Guidelines: React.FC = () => {
         <div className="space-y-2">
           <p>Teams must adhere to the following rules:</p>
           <ul className="list-disc pl-5 space-y-1">
-            <li>Minimum 2 and maximum 4 members per team</li>
+            <li>4 members per team</li>
+            <li>1 female member mandatory</li>
             <li>Cross-institutional teams are allowed and encouraged</li>
-            <li>Solo participants can join the team-building session to find teammates</li>
             <li>Each participant can be part of only one team</li>
           </ul>
         </div>
