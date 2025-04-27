@@ -36,8 +36,8 @@ const About: React.FC = () => {
       
       <div className="container mx-auto max-w-6xl relative z-10">
         <SectionHeading 
-          title="About अनंत"
-          subtitle="अनंत, meaning 'Infinity' in Sanskrit, is a celebration of boundless innovation and technological exploration. Our hackathon aims to break conventional boundaries and inspire solutions that shape the future."
+          title="About अनन्तः"
+          subtitle="अनन्तः, meaning 'Infinity' in Sanskrit, is a celebration of boundless innovation and technological exploration. Our hackathon aims to break conventional boundaries and inspire solutions that shape the future."
           glowColor="blue"
         />
         
@@ -71,10 +71,10 @@ const About: React.FC = () => {
           <div className="flex flex-col justify-center">
             <h3 className="text-2xl font-bold mb-6 text-glow-blue">Our Vision</h3>
             <p className="text-white/80 mb-8">
-              At अनंत, we believe in the power of technology to transform our world. Our hackathon is designed to push the boundaries of what's possible, encouraging participants to think beyond conventional limitations and create solutions that address real-world challenges.
+              At अनन्तः, we believe in the power of technology to transform our world. Our hackathon is designed to push the boundaries of what's possible, encouraging participants to think beyond conventional limitations and create solutions that address real-world challenges.
             </p>
             <p className="text-white/80 mb-8">
-              The name "अनंत" derives from the Sanskrit word for "infinity," symbolizing the endless possibilities that emerge when passionate minds collaborate. We provide a platform for innovators to connect, collaborate, and transform their ideas into reality.
+              The name "अनन्तः" derives from the Sanskrit word for "infinity," symbolizing the endless possibilities that emerge when passionate minds collaborate. We provide a platform for innovators to connect, collaborate, and transform their ideas into reality.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
