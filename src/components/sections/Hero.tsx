@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   const parallaxOffset = useParallax({ speed: 0.1 });
   
   // Set the hackathon date to April 15, 2025
-  const hackathonDate = new Date('2025-07-15T09:00:00');
+  const hackathonDate = new Date('2025-08-04T09:00:00');
   
   const createParticle = (x: number, y: number, size: number) => {
     if (!containerRef.current) return;
@@ -129,7 +129,7 @@ const Hero: React.FC = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in">
           <CustomButton 
-            href="https://unstop.com" 
+            href="https://devfolio.co/discover" 
             size="lg" 
             neonColor="purple"
             className="w-full sm:w-auto"
@@ -139,7 +139,7 @@ const Hero: React.FC = () => {
           </CustomButton>
           
           <CustomButton 
-            href="https://discord.gg" 
+            href="https://discord.gg/Up2fxbfC" 
             variant="outline" 
             size="lg"
             neonColor="blue"
