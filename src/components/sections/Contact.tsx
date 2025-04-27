@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
           </CustomButton>
           
           <CustomButton 
-            href="https://discord.gg/anantah" 
+            href="https://discord.gg/Up2fxbfC" 
             variant="outline"
             size="lg"
             neonColor="blue"
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
         </div>
         
         <div className="text-center text-white/50 text-sm">
-          <p>© 2024 अनन्तः Hackathon. All rights reserved.</p>
+          <p>© 2025 अनन्तः Hackathon. All rights reserved.</p>
           <p className="mt-2">Organized by CSI Club</p>
         </div>
       </div>
