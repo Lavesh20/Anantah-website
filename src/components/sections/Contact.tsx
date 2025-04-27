@@ -4,9 +4,8 @@ import CustomButton from '../ui/CustomButton';
 
 const Contact: React.FC = () => {
   const socialLinks = [
-    { icon: <Twitter size={20} />, url: "https://twitter.com/anantahhackathon", label: "Twitter" },
-    { icon: <Instagram size={20} />, url: "https://instagram.com/anantahhackathon", label: "Instagram" },
-    { icon: <Linkedin size={20} />, url: "https://linkedin.com/company/anantahhackathon", label: "LinkedIn" },
+    { icon: <Instagram size={20} />, url: "https://www.instagram.com/csi_aitr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
+    { icon: <Linkedin size={20} />, url: "https://www.linkedin.com/company/computer-society-of-india-aitr/", label: "LinkedIn" },
     { icon: <Github size={20} />, url: "https://github.com/anantahhackathon", label: "GitHub" },
   ];
 
