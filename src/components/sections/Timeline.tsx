@@ -185,7 +185,7 @@ const Timeline: React.FC = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         <SectionHeading 
           title="Event Timeline"
-          subtitle="Key dates and milestones for Anantah 2025 Hackathon"
+          subtitle="Key dates and milestones for अनन्तः 2025 Hackathon"
           glowColor="green"
         />
         
