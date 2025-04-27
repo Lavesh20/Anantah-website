@@ -22,7 +22,7 @@ const NotFound = () => {
           The page you're looking for doesn't exist or has been moved.
         </p>
         <div className="text-center mb-8">
-          <span className="text-glow">अनंत</span>
+          <span className="text-glow">अनन्तः</span>
           <span className="text-white/80">2025</span>
         </div>
         <CustomButton href="/" neonColor="blue" icon={<Home size={16} />}>
