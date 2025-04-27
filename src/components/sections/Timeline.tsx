@@ -154,7 +154,7 @@ const Timeline: React.FC = () => {
     {
       date: "August 06, 2025",
       time: "8:00 AM IST",
-      title: "Submission Deadline",
+      title: "Hackathon End",
       description: "Final code, documentation, and presentation submissions due.",
       icon: <FileCheck size={24} />,
       position: 'left' as const
