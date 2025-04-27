@@ -117,7 +117,7 @@ const Timeline: React.FC = () => {
   
   const timelineEvents = [
     {
-      date: "August 15, 2025",
+      date: "June 15, 2025",
       time: "10:00 AM IST",
       title: "Registration Opens",
       description: "Team registration begins. Early bird registrations get special mentorship access.",
@@ -126,7 +126,7 @@ const Timeline: React.FC = () => {
       position: 'left' as const
     },
     {
-      date: "September 20, 2025",
+      date: "July 20, 2025",
       time: "11:59 PM IST",
       title: "Registration Closes",
       description: "Last date to register your team and confirm participation.",
@@ -135,7 +135,7 @@ const Timeline: React.FC = () => {
       position: 'right' as const
     },
     {
-      date: "September 25, 2025",
+      date: "August 04, 2025",
       time: "5:00 PM IST",
       title: "Hackathon Kickoff",
       description: "Opening ceremony, problem statements release, and team orientations.",
@@ -144,7 +144,7 @@ const Timeline: React.FC = () => {
       position: 'left' as const
     },
     {
-      date: "September 26-27, 2025",
+      date: "August 05-06, 2025",
       time: "Various Times",
       title: "Mentorship Sessions",
       description: "Expert mentors will be available for guidance and technical support.",
@@ -152,7 +152,7 @@ const Timeline: React.FC = () => {
       position: 'right' as const
     },
     {
-      date: "September 28, 2025",
+      date: "August 06, 2025",
       time: "3:00 PM IST",
       title: "Submission Deadline",
       description: "Final code, documentation, and presentation submissions due.",
@@ -160,7 +160,7 @@ const Timeline: React.FC = () => {
       position: 'left' as const
     },
     {
-      date: "September 29-30, 2025",
+      date: "August 05-06, 2025",
       time: "All Day",
       title: "Judging Period",
       description: "Expert panel reviews and evaluates all submissions.",
@@ -168,7 +168,7 @@ const Timeline: React.FC = () => {
       position: 'right' as const
     },
     {
-      date: "October 5, 2025",
+      date: "August 06, 2025",
       time: "6:00 PM IST",
       title: "Winners Announcement",
       description: "Closing ceremony and announcement of winners in all categories.",
