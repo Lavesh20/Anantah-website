@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
             neonColor="purple"
             icon={<Mail size={18} />}
           >
-            info@anantah.com
+            infoanantah@gmail.com
           </CustomButton>
           
           <CustomButton 
