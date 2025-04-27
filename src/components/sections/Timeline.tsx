@@ -160,8 +160,8 @@ const Timeline: React.FC = () => {
       position: 'left' as const
     },
     {
-      date: "August 05-06, 2025",
-      time: "All Day",
+      date: "August 06, 2025",
+      time: "4:00 PM IST",
       title: "Judging Period",
       description: "Expert panel reviews and evaluates all submissions.",
       icon: <Award size={24} />,
