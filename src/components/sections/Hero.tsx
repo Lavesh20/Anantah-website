@@ -131,7 +131,7 @@ const Hero: React.FC = () => {
           <CustomButton 
             href="https://devfolio.co/discover" 
             size="lg" 
-            neonColor="purple"
+            neonColor="blue"
             className="w-full sm:w-auto"
           >
             Apply with Devfolio
