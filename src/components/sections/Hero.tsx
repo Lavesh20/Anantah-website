@@ -4,17 +4,6 @@ import CustomButton from '../ui/CustomButton';
 import { ArrowRight, Github, Star } from 'lucide-react';
 import useParallax from '@/hooks/useParallax';
 
-
-React.useEffect(() => {
-  const script = document.createElement('script');
-  script.src = 'https://apply.devfolio.co/v2/sdk.js';
-  script.async = true;
-  script.defer = true;
-  document.body.appendChild(script);
-  return () => {
-    document.body.removeChild(script);
-  }
-}, []);
 const Hero: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const parallaxOffset = useParallax({ speed: 0.1 });
@@ -138,12 +127,16 @@ const Hero: React.FC = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in">
-                  <div 
-            class="apply-button" 
-            data-hackathon-slug="anantah" 
-            data-button-theme="dark-inverted"
-            style="height: 44px; width: 312px"
-        > </div>
+          <CustomButton 
+            href="https://devfolio.co/discover" 
+            size="lg" 
+            neonColor="blue"
+            className="w-full sm:w-auto"
+          >
+            <img src="logo.png" alt="" />
+            Apply with Devfolio
+            <ArrowRight size={16} className="ml-2" />
+          </CustomButton>
           
           <CustomButton 
             href="https://discord.gg/Up2fxbfC" 
