@@ -134,6 +134,7 @@ const Hero: React.FC = () => {
             neonColor="blue"
             className="w-full sm:w-auto"
           >
+            <img src="logo.png" alt="" />
             Apply with Devfolio
             <ArrowRight size={16} className="ml-2" />
           </CustomButton>
