@@ -127,16 +127,18 @@ const Hero: React.FC = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in">
-          <CustomButton 
-            href="https://devfolio.co/discover" 
-            size="lg" 
-            neonColor="blue"
-            className="w-full sm:w-auto"
-          >
-            <img src="logo.png" alt="" />
-            Apply with Devfolio
-            <ArrowRight size={16} className="ml-2" />
-          </CustomButton>
+        <a 
+  href="https://devfolio.co/discover" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="w-full sm:w-auto"
+>
+  <img 
+    src="/public/dev1.png" 
+    alt="Apply with Devfolio" 
+    className="h-12 md:h-14 transition-transform duration-200 hover:scale-105"
+  />
+</a>
           
           <CustomButton 
             href="https://discord.gg/Up2fxbfC" 
