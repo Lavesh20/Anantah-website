@@ -134,7 +134,7 @@ const Hero: React.FC = () => {
             neonColor="purple"
             className="w-full sm:w-auto"
           >
-            Register Now
+            Apply with Devfolio
             <ArrowRight size={16} className="ml-2" />
           </CustomButton>
           
