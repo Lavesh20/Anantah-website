@@ -7,8 +7,8 @@ const Sponsors: React.FC = () => {
   // Placeholder for sponsor logos
   const sponsors = {
     platinum: [
-      { name: "TBD", logo: "/public/_Light.png" },
-      { name: "TBD", logo: "https://via.placeholder.com/200x80/1a1a1a/808080?text=InnovateTech" }
+      { name: "TBD", logo: "/_Light.png" },
+      { name: "TBD", logo: "/FoldlogoHorizontal.png" }
     ],
     gold: [
       { name: "TBD", logo: "https://via.placeholder.com/160x60/1a1a1a/808080?text=DevSolutions" },
