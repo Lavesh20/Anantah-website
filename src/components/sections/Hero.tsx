@@ -90,6 +90,17 @@ const Hero: React.FC = () => {
     };
   }, []);
 
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
+
   return (
     <section 
       ref={containerRef}
@@ -131,14 +142,19 @@ const Hero: React.FC = () => {
   href="https://devfolio.co/discover" 
   target="_blank" 
   rel="noopener noreferrer"
-  className="w-full sm:w-auto"
+  className="w-full sm:w-auto apply-button" 
+	data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+	data-button-theme="light"
+	
 >
   <img 
     src="/public/dev1.png" 
     alt="Apply with Devfolio" 
-    className="h-12 md:h-14 transition-transform duration-200 hover:scale-105"
-  />
+    className="md:h-14 transition-transform duration-200 hover:scale-105 h-[44px] w-[312px] "
+    />
 </a>
+
+
           
           <CustomButton 
             href="https://discord.gg/Up2fxbfC" 
