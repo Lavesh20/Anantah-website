@@ -118,7 +118,7 @@ const Timeline: React.FC = () => {
   const timelineEvents = [
     {
       date: "To be decided",
-      time: "10:00 AM IST",
+      time: "To be decided",
       title: "Registration Opens",
       description: "Team registration begins. Early bird registrations get special mentorship access.",
       icon: <Flag size={24} />,
@@ -126,8 +126,8 @@ const Timeline: React.FC = () => {
       position: 'left' as const
     },
     {
-      date: "July 20, 2025",
-      time: "11:59 PM IST",
+      date: "To be decided",
+      time: "To be decided",
       title: "Registration Closes",
       description: "Last date to register your team and confirm participation.",
       icon: <Users size={24} />,
@@ -135,8 +135,8 @@ const Timeline: React.FC = () => {
       position: 'right' as const
     },
     {
-      date: "August 04, 2025",
-      time: "8:00 PM IST",
+      date: "To be decided",
+      time: "To be decided",
       title: "Hackathon Kickoff",
       description: "Opening ceremony, problem statements release, and team orientations.",
       icon: <Flag size={24} />,
@@ -144,7 +144,7 @@ const Timeline: React.FC = () => {
       position: 'left' as const
     },
     {
-      date: "August 05-06, 2025",
+      date: "To be decided",
       time: "Various Times",
       title: "Mentorship Sessions",
       description: "Expert mentors will be available for guidance and technical support.",
@@ -152,24 +152,24 @@ const Timeline: React.FC = () => {
       position: 'right' as const
     },
     {
-      date: "August 06, 2025",
-      time: "8:00 AM IST",
+      date: "To be decided",
+      time: "To be decided",
       title: "Hackathon End",
       description: "Final code, documentation, and presentation submissions due.",
       icon: <FileCheck size={24} />,
       position: 'left' as const
     },
     {
-      date: "August 06, 2025",
-      time: "4:00 PM IST",
+      date: "To be decided",
+      time: "To be decided",
       title: "Judging Period",
       description: "Expert panel reviews and evaluates all submissions.",
       icon: <Award size={24} />,
       position: 'right' as const
     },
     {
-      date: "August 06, 2025",
-      time: "6:00 PM IST",
+      date: "To be decided",
+      time: "To be decided",
       title: "Winners Announcement",
       description: "Closing ceremony and announcement of winners in all categories.",
       icon: <Award size={24} />,
