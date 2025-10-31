@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <a href="/" className="flex items-center text-xl font-bold tracking-tight">
           <span className="text-glow">अनन्त: </span>
-          <span className="text-white/80">2025</span>
+          <span className="text-white/80">2026</span>
         </a>
 
         {/* Desktop Navigation */}
