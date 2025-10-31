@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-glow">Get In Touch</h2>
           <p className="text-white/70 max-w-xl mx-auto">
-            Have questions or need more information about अनन्तः 2025? Reach out to us through any of these channels.
+            Have questions or need more information about अनन्तः 2026? Reach out to us through any of these channels.
           </p>
         </div>
         
@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
         </div>
         
         <div className="text-center text-white/50 text-sm">
-          <p>© 2025 अनन्तः Hackathon. All rights reserved.</p>
+          <p>© 2026 अनन्तः Hackathon. All rights reserved.</p>
           <p className="mt-2">Organized by CSI Club</p>
         </div>
       </div>
