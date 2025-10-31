@@ -23,7 +23,7 @@ const NotFound = () => {
         </p>
         <div className="text-center mb-8">
           <span className="text-glow">अनन्तः</span>
-          <span className="text-white/80">2025</span>
+          <span className="text-white/80">2026</span>
         </div>
         <CustomButton href="/" neonColor="blue" icon={<Home size={16} />}>
           Return to Home
