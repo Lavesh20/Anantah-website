@@ -37,7 +37,7 @@ const Sponsors: React.FC = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         <SectionHeading 
           title="Sponsors & Partners"
-          subtitle="अनन्तः 2025 is made possible by the generous support of our sponsors and partners."
+          subtitle="अनन्तः 2026 is made possible by the generous support of our sponsors and partners."
           glowColor="green"
         />
         
